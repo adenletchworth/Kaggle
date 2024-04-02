@@ -19,9 +19,9 @@ This repository contains my personal notebooks for various Kaggle competitions. 
 - [Disaster Tweets](https://www.kaggle.com/code/adends/commentary-on-bert-with-pytorch)
   - **Overview**: A NLP problem where you are tasked with identifying which Tweets are describing a real Natural Disaster.
   - **Highlights**: In this competition I perform data preprocessing and feature engineering to create insightful numeric features to support our given categorical features. These features are then fed into a Hybrid Neural Network that utilizes BERT for the categorical features and a Feed-Forward Neural Network for the numeric features. Together this creates a robust network that acheieved a top score in the competition. This notebook is also supported with commentary on approaches and rich visualizations.
-  - [Digit Recognizer](https://www.kaggle.com/code/adends/digit-recognizer-with-pytorch)
-    - **Overview**: A classic Computer Vision problem where you are tasked with classifying hand-written digit images.
-    - **Highlights**: In this competition, I leverage PyTorch to build a robust data pipeline for our Convolutional Neural Network (CNN). The pipeline included data augmentation which is one of the few optimizations taken place to acheive a top score. In addition, I leveraged techniques such as KFold cross validation, early stopping and scheduling to squeeze performance out of my model. 
+- [Digit Recognizer](https://www.kaggle.com/code/adends/digit-recognizer-with-pytorch)
+  - **Overview**: A classic Computer Vision problem where you are tasked with classifying hand-written digit images.
+  - **Highlights**: In this competition, I leverage PyTorch to build a robust data pipeline for our Convolutional Neural Network (CNN). The pipeline included data augmentation which is one of the few optimizations taken place to acheive a top score. In addition, I leveraged techniques such as KFold cross validation, early stopping and scheduling to squeeze performance out of my model. 
 
 
 
