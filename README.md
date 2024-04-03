@@ -12,16 +12,19 @@ This repository contains my personal notebooks for various Kaggle competitions. 
   - **Highlights**: In this competition, I again explore the dataset performing necessary preprocessing and feature engineering steps enriching the notebook with visualizations and commentary. It is then fed into a machine learning pipeline where it undergoes additional proeprocessing steps and is fit to different ensemble (e.g. Random Forest, XGBoost) and linear methods (e.g. Logistic Regression). In the final iteration, I utilize a tuned Random Forest model to acheive a high competition standing and community support.
 - [Store Sales](NONE)
   - **Overview**: A problem where you are faced with forecasting Store Sales in Ecuador using historic time-series data.
-  - **Highlights**: **WIP**
+  - **Highlights**: 
 - [House Prices](https://www.kaggle.com/code/adends/neural-network-with-embeddings-for-house-prices)
   - **Overview**: A regression problem where you must predict the sale price of a house given some qualities about it.
-  - **Highlights**: In this notebook, I perform various preprocessing and feature engineering steps before forming my data into tensors. These tensors are then fed into a Feed-Forward Neural Network with various optimizations to predict house prices. The neural network implements both Embedding and Linear layers to better capture the meaning of the categorical variables. This notebook is supported with commentary and visualizations to help readers comprehend. The result is a high competition standing and community support.
+  - **Highlights**: In this competition, I perform various preprocessing and feature engineering steps before forming my data into tensors. These tensors are then fed into a Feed-Forward Neural Network with various optimizations to predict house prices. The neural network implements both Embedding and Linear layers to better capture the meaning of the categorical variables. This notebook is supported with commentary and visualizations to help readers comprehend. The result is a high competition standing and community support.
 - [Disaster Tweets](https://www.kaggle.com/code/adends/commentary-on-bert-with-pytorch)
   - **Overview**: A NLP problem where you are tasked with identifying which Tweets are describing a real Natural Disaster.
   - **Highlights**: In this competition I perform data preprocessing and feature engineering to create insightful numeric features to support our given categorical features. These features are then fed into a Hybrid Neural Network that utilizes BERT for the categorical features and a Feed-Forward Neural Network for the numeric features. Together this creates a robust network that acheieved a top score in the competition. This notebook is also supported with commentary on approaches and rich visualizations.
 - [Digit Recognizer](https://www.kaggle.com/code/adends/digit-recognizer-with-pytorch)
   - **Overview**: A classic Computer Vision problem where you are tasked with classifying hand-written digit images.
-  - **Highlights**: In this competition, I leverage PyTorch to build a robust data pipeline for our Convolutional Neural Network (CNN). The pipeline included data augmentation which is one of the few optimizations taken place to acheive a top score. In addition, I leveraged techniques such as KFold cross validation, early stopping and scheduling to squeeze performance out of my model. 
+  - **Highlights**: In this competition, I leveraged PyTorch to engineer a sophisticated Convolutional Neural Network (CNN) tailored for high-accuracy digit recognition. The approach included strategic data augmentation to improve generalization, and a robust training regimen featuring KFold cross-validation, early stopping, and adaptive learning rate scheduling for peak performance. My solution emphasized efficiency in data processing and model optimization, setting a benchmark for future competitions.
+- [Regression with Abalone Dataset](https://www.kaggle.com/code/adends/diving-deep-into-abalone)
+  - **Overview**: A regression problem where you are tasked with predicting the rings (age) of an abalone given some if it's other features.
+  - **Highlights**: In the 'Diving Deep for Abalone' competition, I used data visualization libraries to uncover insights into abalone ages, focusing on distribution, correlation, and categorical differences through histograms, pair plots, and 3D scatter plots. These visual analyses informed my use of ensemble methods, including CatBoost, LightGBM, and XGBoost, driving my strategy for predictive accuracy.
 
 
 
